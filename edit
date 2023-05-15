@@ -1,0 +1,22 @@
+#!/bin/sh
+
+vim main.cpp \
+    Game/GameStarter.cpp Game/GameStarter.hpp Game/ScoreManager.cpp \
+    Game/ScoreManager.hpp Game/Games/ChaseGame.cpp Game/Games/ChaseGame.hpp \
+    Game/Games/PacmanGame.cpp Game/Games/PacmanGame.hpp \
+    Grid/Node.cpp Grid/Node.hpp Grid/Line.cpp Grid/Line.hpp \
+    Grid/GridManager.cpp Grid/GridManager.hpp Grid/PathFinder.cpp \
+    Grid/PathFinder.hpp \
+    Threads/Thread.cpp Threads/Thread.hpp Threads/CameraThread.cpp \
+    Threads/CameraThread.hpp Threads/DetectorThread.cpp \
+    Threads/DetectorThread.hpp Threads/InputThread.cpp \
+    Threads/InputThread.hpp Threads/RadioThread.cpp Threads/RadioThread.hpp \
+    Camera/Camera.cpp Camera/Camera.hpp Camera/Detector.cpp \
+    Camera/Detector.hpp \
+    Robot/RobotManager.cpp Robot/RobotManager.hpp Robot/Robot.cpp \
+    Robot/Robot.hpp \
+    Radio/CommandGenerator.cpp Radio/CommandGenerator.hpp \
+    Radio/CommandCenter.cpp Radio/CommandCenter.hpp Radio/TimeoutSerial.cpp \
+    Radio/TimeoutSerial.hpp \
+    Misc/Time.cpp Misc/Time.hpp Misc/UnitConverter.cpp \
+    Misc/UnitConverter.hpp config.hpp
