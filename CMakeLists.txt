@@ -18,7 +18,7 @@ add_executable (botswarm
     main.cpp
     Game/GameStarter.cpp
     Game/ScoreManager.cpp
-    #Game/Games/ChaseGame.cpp
+    Game/Games/ChaseGame.cpp
     Game/Games/PacmanGame.cpp
     Grid/GridManager.cpp
     Grid/GridManager.hpp
