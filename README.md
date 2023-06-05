@@ -8,6 +8,16 @@ Repository for the project Pacman game.
   Pisi-Xbee 6
 * Oliver Paljak - developer of the Pacman game (this repository)
 
+## Dependecies
+
+The project depends on four dependencies: OpenCV, SDL, Boost and XIMEA.
+
+* OpenCV - provides computer vision related algorithms: Line Segment Detection,
+  ArUco detection and so on
+* SDL - handles user inputs
+* Boost - used for radio communication
+* XIMEA - used for getting frames from the XIMEA xIQ MQ013CG-E2 camera
+
 ## Building the project
 
 1. Make sure you have necessary dependencies installed (OpenCV, SDL, Boost, and
